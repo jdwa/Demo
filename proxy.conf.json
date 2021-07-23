@@ -1,0 +1,10 @@
+{
+  "/api": {
+    "target": "https://echarts.apache.org/examples/data/asset/data/",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}
